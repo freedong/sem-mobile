@@ -1,0 +1,314 @@
+@function px2rem($px) {
+    $rem: 37.5px;
+    @return ($px / $rem)+rem;
+}
+
+
+
+
+
+
+/* 公共样式 开始*/
+
+.header-six {
+    width: 100%;
+    height: px2rem(60px);
+    line-height: px2rem(60px);
+    .header-logo-six {
+        height: px2rem(33px);
+        line-height: px2rem(33px);
+        width: px2rem(60px);
+        float: left;
+        margin-top: px2rem(14px);
+        margin-left: px2rem(10px);
+        margin-right: px2rem(5px);
+    }
+    .header-p-six {
+        color: #183e6a;
+        font-size: px2rem(12px);
+    }
+}
+
+.banner-six {
+    .banner-img-six {
+        display: block;
+        height: px2rem(100px);
+        width: 100%;
+    }
+}
+
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+/* 公共样式 结束*/
+
+
+/* 400热销套餐 开始 */
+
+.pack-tc {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: px2rem(10px);
+    padding-left: px2rem(10px);
+    margin-top: px2rem(10px);
+    .pack-one-six {
+        height: px2rem(245px);
+        border: px2rem(1px) solid #e4e4e4;
+        box-sizing: border-box;
+        padding-left: px2rem(10px);
+        padding-right: px2rem(10px);
+        position: relative;
+        >img {
+            position: absolute;
+            top: px2rem(-1px);
+            left: px2rem(-1px);
+            width: px2rem(45px);
+            height: px2rem(45px);
+        }
+        .pack-h5-six {
+            color: #666666;
+            font-size: px2rem(12px);
+            text-align: center;
+            margin-top: px2rem(5px);
+            margin-bottom: px2rem(5px);
+            i {
+                font-style: normal;
+                color: #f5c344;
+                font-size: px2rem(37px);
+                font-weight: bold;
+            }
+            span {
+                color: #f5c344;
+                font-size: px2rem(12px);
+                margin-left: px2rem(15px);
+            }
+        }
+        .pack-h6-six {
+            color: #222222;
+            font-size: px2rem(18px);
+            font-weight: bold;
+            width: 100%;
+            background-color: #f5c344;
+            text-align: center;
+            height: px2rem(35px);
+            line-height: px2rem(35px);
+        }
+        .pack-ul-six {
+            >li {
+                float: left;
+                color: #666666;
+                font-size: px2rem(12px);
+                width: px2rem(115px);
+                margin-left: px2rem(35px);
+                margin-top: px2rem(6px);
+
+                >span {
+                    display: inline-block;
+                    color: #666666;
+                    margin-right: px2rem(5px);
+                }
+            }
+        }
+        .pack-h3-six {
+            color: #222222;
+            font-size: px2rem(15px);
+            font-weight: bold;
+            text-align: center;
+            margin-top: px2rem(10px);
+        }
+        .pack-ulone-six {
+            margin-left: px2rem(10px);
+            margin-right: px2rem(10px);
+            li {
+                float: left;
+                color: #666666;
+                font-size: px2rem(12px);
+                margin-top: px2rem(6px);
+                &:nth-child(2) {
+                    margin-left: px2rem(35px);
+                    margin-right: px2rem(35px);
+                }
+                &:nth-child(5) {
+                    margin-left: px2rem(35px);
+                    margin-right: px2rem(35px);
+                }
+            }
+        }
+        .pack-a-six {
+            position: absolute;
+            bottom: px2rem(-17.5px);
+            left: 50%;
+            margin-left: px2rem(-87.5px);
+            width: px2rem(175px);
+            height: px2rem(35px);
+            line-height: px2rem(35px);
+            background-color: #f5c344;
+            color: #222222;
+            font-size: px2rem(12px);
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+.pack-tab {
+    width: 100%;
+    margin-top: px2rem(45px);
+    ul li {
+        float: left;
+        color: #ffffff;
+        font-size: px2rem(12px);
+        width: 25%;
+        background-color: #3a3a3a;
+        height: px2rem(35px);
+        line-height: px2rem(35px);
+        text-align: center;
+        position: relative;
+        &.active {
+            background-color: #1d1d1d;
+        }
+        &:after {
+            display: inline-block;
+            content: " ";
+            position: absolute;
+            top: 50%;
+            right: px2rem(0px);
+            margin-top: px2rem(-12.5px);
+            width: px2rem(0.5px);
+            height: px2rem(25px);
+            background-color: #616161;
+        }
+        &:last-child:after {
+            display: none;
+        }
+    }
+}
+
+
+.pack-cons {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: px2rem(10px);
+    padding-left: px2rem(10px);
+    margin-top: px2rem(10px);
+    .pack-con {
+        height: px2rem(245px);
+        border: px2rem(1px) solid #e4e4e4;
+        box-sizing: border-box;
+        padding-left: px2rem(10px);
+        padding-right: px2rem(10px);
+        position: relative;
+        .pack-con-bg {
+            background-color: #efefef;
+        }
+        .pack-h5-six {
+            color: #666666;
+            font-size: px2rem(12px);
+            text-align: center;
+            margin-top: px2rem(4px);
+            margin-bottom: px2rem(4px);
+            i {
+                font-style: normal;
+                color: #f5c344;
+                font-size: px2rem(37px);
+                font-weight: bold;
+            }
+            span {
+                color: #f5c344;
+                font-size: px2rem(12px);
+                margin-left: px2rem(15px);
+            }
+        }
+        .pack-h6-six {
+            color: #222222;
+            font-size: px2rem(15px);
+            font-weight: bold;
+            width: 100%;
+            background-color: #f5c344;
+            text-align: center;
+            height: px2rem(35px);
+            line-height: px2rem(35px);
+        }
+        .pack-ul-six {
+            box-sizing: border-box;
+            padding-left: px2rem(3.5px);
+            padding-right: px2rem(3.5px);
+            border-bottom: px2rem(1px) dashed #c4c4c4;
+            padding-bottom: px2rem(6px);
+
+            >li {
+                float: left;
+                color: #666666;
+                font-size: px2rem(12px);
+                width: px2rem(140px);
+                margin-left: px2rem(20px);
+                margin-top: px2rem(6px);
+                &.wid-two {
+                    width: px2rem(190px);
+                }
+                &.wid-one {
+                    width: px2rem(215px);
+                }
+                >span {
+                    display: inline-block;
+                    color: #666666;
+                    margin-right: px2rem(5px);
+                }
+            }
+        }
+        .pack-h3-six {
+            color: #222222;
+            font-size: px2rem(15px);
+            font-weight: bold;
+            text-align: center;
+            margin-top: px2rem(8px);
+        }
+        .pack-ulone-six {
+            margin-left: px2rem(10px);
+            margin-right: px2rem(10px);
+            padding-bottom: px2rem(6px);
+            li {
+                float: left;
+                color: #666666;
+                font-size: px2rem(12px);
+                margin-top: px2rem(6px);
+                &:nth-child(2) {
+                    margin-left: px2rem(35px);
+                    margin-right: px2rem(35px);
+                }
+                &:nth-child(5) {
+                    margin-left: px2rem(35px);
+                    margin-right: px2rem(35px);
+                }
+            }
+        }
+        .pack-a-six {
+            position: absolute;
+            bottom: px2rem(-17.5px);
+            left: 50%;
+            margin-left: px2rem(-87.5px);
+            width: px2rem(175px);
+            height: px2rem(35px);
+            line-height: px2rem(35px);
+            background-color: #f5c344;
+            color: #222222;
+            font-size: px2rem(12px);
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+/* 400热销套餐 结束 */
