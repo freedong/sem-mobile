@@ -32,6 +32,7 @@
 
 
 
+
 /* 公共样式 开始*/
 
 .header-six {
@@ -69,6 +70,7 @@
 .hide {
     display: none;
 }
+
 
 
 
@@ -735,24 +737,24 @@
             }
             &:last-child {
                 img {
-                	display: inline-block;
-                	width: px2rem(20px);
-                	height: px2rem(20px);
-                	vertical-align: middle;
-                	margin-right: px2rem(2px)
+                    display: inline-block;
+                    width: px2rem(20px);
+                    height: px2rem(20px);
+                    vertical-align: middle;
+                    margin-right: px2rem(2px)
                 }
             }
             &:nth-child(3) {
                 img {
-                	display: inline-block;
-                	width: px2rem(17.5px);
-                	height: px2rem(19.5px);
-                	vertical-align: middle;
-                	margin-right: px2rem(2px)
+                    display: inline-block;
+                    width: px2rem(17.5px);
+                    height: px2rem(19.5px);
+                    vertical-align: middle;
+                    margin-right: px2rem(2px)
                 }
             }
-            &:nth-child(3):after{
-            	display: none;
+            &:nth-child(3):after {
+                display: none;
             }
         }
     }
@@ -776,4 +778,83 @@
 
 
 
+
 /* 400热销套餐 结束 */
+
+
+/* 400办理攻略 开始 */
+
+.banli-lc {
+    position: relative;
+    margin-top: px2rem(10px);
+    text-align: center;
+    .banli-lc-bg {
+        background-image: url(../images/banli-six.png);
+        background-position: px2rem(0px) px2rem(53px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 auto;
+        width: 95%;
+        height: px2rem(128px);
+        padding-top: px2rem(90px);
+        box-sizing:border-box;
+        padding-right: px2rem(10px);
+        padding-left: px2rem(10px);
+        >ul {
+            display: flex;
+            >li {
+                flex: 1;
+                width: px2rem(100px);
+                height: px2rem(65px);
+                background-color: #efefef;
+                margin-right: px2rem(10px);
+                margin-left: px2rem(10px);
+                >h5 {
+                    color: #222222;
+                    font-size: px2rem(12px);
+                    font-weight: bold;
+                    margin-top: px2rem(14px);
+                }
+                >a {
+                    display: inline-block;
+                    color: #f5c344;
+                    font-size: px2rem(12px);
+                    margin-top: px2rem(5px);
+                }
+            }
+        }
+    }
+}
+
+.banli-h6{
+    color: #222222;
+    font-weight:bold;
+    font-size: px2rem(15px);
+    text-align: left;
+    padding-top: px2rem(50px);
+    position: relative;
+    width: 100%;
+    box-sizing:border-box;
+    padding-left: px2rem(38px);
+    &:after{
+        content: " ";
+        display: inline-block;
+        width: px2rem(17.5px);
+        height: px2rem(16px);
+        background-image: url(../images/h3-tp-six.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: px2rem(53px);
+        left: px2rem(10px);
+    }
+}
+.banli-gl {
+    position: relative;
+    margin-top: px2rem(55px);
+    text-align: center;
+}
+
+
+
+/* 400办理攻略 结束 */
