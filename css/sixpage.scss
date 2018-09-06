@@ -33,8 +33,6 @@
 
 
 
-
-
 /* 导航栏  开始 */
 
 .nav {
@@ -484,21 +482,24 @@
             margin-top: px2rem(10px);
         }
         .pack-ulone-six {
-            margin-left: px2rem(10px);
-            margin-right: px2rem(10px);
+            // margin-left: px2rem(10px);
+            // margin-right: px2rem(10px);
             li {
                 float: left;
                 color: #666666;
                 font-size: px2rem(12px);
                 margin-top: px2rem(6px);
-                &:nth-child(2) {
-                    margin-left: px2rem(35px);
-                    margin-right: px2rem(35px);
-                }
-                &:nth-child(5) {
-                    margin-left: px2rem(35px);
-                    margin-right: px2rem(35px);
-                }
+                width: px2rem(110px);
+                height: px2rem(15px);
+                text-align: center;
+                // &:nth-child(2) {
+                //     margin-left: px2rem(30px);
+                //     margin-right: px2rem(30px);
+                // }
+                // &:nth-child(5) {
+                //     margin-left: px2rem(30px);
+                //     margin-right: px2rem(30px);
+                // }
             }
         }
         .pack-a-six {
@@ -647,14 +648,17 @@
                 color: #666666;
                 font-size: px2rem(12px);
                 margin-top: px2rem(6px);
-                &:nth-child(2) {
-                    margin-left: px2rem(35px);
-                    margin-right: px2rem(35px);
-                }
-                &:nth-child(5) {
-                    margin-left: px2rem(35px);
-                    margin-right: px2rem(35px);
-                }
+                width: px2rem(103px);
+                height: px2rem(15px);
+                text-align: center;
+                // &:nth-child(2) {
+                //     margin-left: px2rem(35px);
+                //     margin-right: px2rem(35px);
+                // }
+                // &:nth-child(5) {
+                //     margin-left: px2rem(35px);
+                //     margin-right: px2rem(35px);
+                // }
             }
         }
         .pack-a-six {
@@ -1203,9 +1207,12 @@
                 float: left;
                 color: #666666;
                 font-size: px2rem(12px);
-                margin-left: px2rem(19px);
-                margin-right: px2rem(19px);
+                // margin-left: px2rem(19px);
+                // margin-right: px2rem(19px);
                 margin-top: px2rem(10px);
+                width: px2rem(117px);
+                height: px2rem(15px);
+                text-align: center;
             }
         }
     }
@@ -1310,7 +1317,7 @@
                 }
                 &:nth-child(2) {
                     flex: 5;
-                    margin-left: px2rem(13px);
+                    margin-left: px2rem(10px);
                     text-align: left;
                     h5 {
                         color: #222222;

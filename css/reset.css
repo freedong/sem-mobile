@@ -48,8 +48,8 @@ body {
   font-size: 14px;
   color: #333;
   background: #ffffff;
-  /*max-width: 640px;
-  margin: 0 auto;*/
+  max-width: 1024px;
+  margin: 0 auto;
   font-family: "微软雅黑",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Source Han Sans CN, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
 }
 ol, ul {
