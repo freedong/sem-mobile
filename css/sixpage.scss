@@ -466,7 +466,7 @@
                 width: px2rem(115px);
                 margin-left: px2rem(35px);
                 margin-top: px2rem(6px);
-
+                white-space: nowrap;
                 >span {
                     display: inline-block;
                     color: #666666;
@@ -619,6 +619,7 @@
                 margin-left: px2rem(20px);
                 margin-top: px2rem(6px);
                 text-align: left;
+                white-space: nowrap;
                 &.wid-two {
                     width: px2rem(190px);
                 }
@@ -764,6 +765,7 @@
                 width: 25%;
                 text-align: left;
                 margin-top: px2rem(6px);
+                white-space: nowrap;
             }
         }
     }
@@ -803,6 +805,7 @@
                     h5 {
                         color: #666666;
                         font-size: px2rem(12px);
+                        white-space: nowrap;
                         i {
                             color: #3a3a3a;
                             font-size: px2rem(32px);
@@ -829,6 +832,7 @@
                         text-align: left;
                         margin-left: px2rem(20px);
                         margin-top: px2rem(5px);
+                        white-space: nowrap;
                     }
                 }
                 &:nth-child(3) {
@@ -837,6 +841,7 @@
                         color: #666666;
                         font-size: px2rem(12px);
                         margin-top: px2rem(5px);
+                        white-space: nowrap;
                     }
                 }
             }
@@ -1155,6 +1160,7 @@
                     font-size: px2rem(12px);
                     font-weight: bold;
                     margin-top: px2rem(14px);
+                    white-space: nowrap;
                 }
                 >a {
                     display: inline-block;
@@ -1815,6 +1821,7 @@
             top: px2rem(-17.5px);
             left: 50%;
             margin-left: px2rem(-94px);
+            white-space: nowrap;
         }
         a {
             display: inline-block;
