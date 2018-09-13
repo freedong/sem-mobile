@@ -109,3 +109,16 @@ table {
     margin:0 auto;
   }
 }*/
+
+.item-anchor{
+  font-size: 18px!important;
+}
+.nav-item{
+  margin: 12px auto!important;
+}
+
+.nav-cloud > ul {
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+}
