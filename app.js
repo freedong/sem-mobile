@@ -1,5 +1,6 @@
 
-require("./css/sixpage.scss");
+'use strict';
+require("./css/hopepage.scss");
 
 
 
@@ -20,8 +21,3 @@ window.addEventListener('resize',(e) => {
 
 	htmlDOM.style.fontSize = htmlWidth / 10 + 'px';
 })
-
-
-
-
-

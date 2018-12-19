@@ -14,7 +14,7 @@ module.exports = {
 	// 入口文件输出配置
 	output: {
 		path: path.resolve(__dirname,'./js'),
-		filename: 'bundle.js',
+		filename: 'hopebundle.js',
 	},
 	// 加载器配置
 	module: {
